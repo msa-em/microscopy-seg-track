@@ -1,0 +1,43 @@
+version: 1
+project:
+  title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
+  description: ''
+  authors:
+    - userId: PuMpaY9vxJXq7MgyOn06KAJjJFk1
+      nameParsed:
+        literal: Yifei Duan
+        given: Yifei
+        family: Duan
+      name: Yifei Duan
+      corresponding: false
+      roles: []
+      affiliations: []
+      id: contributors-generated-uid-0
+    - userId: eQLn8OuKA6P0tnqqXpwbKjwbFNT2
+      nameParsed:
+        literal: Yifan Duan
+        given: Yifan
+        family: Duan
+      name: Yifan Duan
+      corresponding: false
+      roles: []
+      affiliations: []
+      id: contributors-generated-uid-1
+  affiliations:
+    - id: 24b97dfc-b244-4100-9c61-08dd5654fa58
+      name: 24b97dfc-b244-4100-9c61-08dd5654fa58
+    - id: 7d4aefe9-595b-44a7-8f83-003fe208d7cf
+      name: 7d4aefe9-595b-44a7-8f83-003fe208d7cf
+  id: 23XJ7d092W52UYjknN3G
+  remote: 23XJ7d092W52UYjknN3G
+site:
+  title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
+  options:
+    logo_text: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
+  nav:
+    - title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
+      url: /deep-learning-applications-in-microscopy-segmentat
+  actions:
+    - title: Learn More
+      url: https://curvenote.com/docs/web
+  domains: []

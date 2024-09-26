@@ -1,10 +1,10 @@
-name: change-this-to-repo-name
+name: microscopy-seg-track
 channels:
   - conda-forge
 dependencies:
   # add your dependencies below
   # pinning versions if necessary 
-  - python
+  - python=3.10.14
   - numpy
   - scipy
   - h5py
@@ -16,3 +16,9 @@ dependencies:
   - jupyterlab-myst
   - 'nodejs>=20,<21'
   - mystmd
+  - pandas
+  - opencv
+  - pillow
+  - ipython
+  - imageio
+  - imageio-ffmpeg

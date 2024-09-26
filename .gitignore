@@ -3,3 +3,6 @@ _build
 .ipynb_checkpoints/
 
 .DS_Store
+
+start_jupyter_lab.bat
+start_myst_start.bat

@@ -1,24 +1,26 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: msa-em-change-this-to-repo-name-followed-by-the-number-1
-  title: Elemental Microscopy Quickstart
-  description: A minimal repository to be used as quickstart for the Elemental Microscopy journal.
-  short_title: EM Quickstart
+  id: msa-em-microscopy-seg-track-1
+  title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
+  description: ...
+  short_title: Microscopy Segment Track
   keywords:
-    - Keyword One
-    - Keyword Two
-    - Spell Out Acronyms
-  github: https://github.com/msa-em/change-this-to-repo-name
-  jupyter: true
-  #  jupyter:
-  #    binder:
-  #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
-  #      repo: msa-em/change-this-to-repo-name
-  #  jupyter:
-  #    server:
-  #      url: 'http://localhost:8888'
-  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+    - Deep learning
+    - transmission electron microscopy
+    - image segmentation
+    - bright field transmission electron microscopy
+    - nanoparticles
+  github: https://github.com/msa-em/microscopy-seg-track
+  # jupyter: true
+  jupyter:
+    binder:
+      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+      repo: msa-em/microscopy-seg-track
+  # jupyter:
+  #   server:
+  #     url: 'http://localhost:8888'
+  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   banner: banner.png
@@ -37,59 +39,132 @@ project:
     - format: meca
   exclude:
     - README.md
-    - 'curvenote-export/*'
   authors:
-    - id: cophus
-      name: Colin Ophus
-      corresponding: true
-      email: cophus@gmail.com
-      orcid: 0000-0003-2348-8558
+    - id: yifeiduan
+      name: 'Yifei Duan #'
+      equal_contributor: true
+      email: yifeid@seas.upenn.edu
+      # orcid: 0000-0000-0000-0000
       affiliations:
-        - id: ncem
-          department: National Center for Electron Microscopy, Molecular Foundry
-          institution: Lawrence Berkeley National Laboratory
-          address: 1 Cyclotron Road, Berkeley, CA, USA, 94720
-          ror: 02jbv0t02
-      roles:
-        - Conceptualization
-        - Funding acquisition
+        - id: upennmse
+          department: Department of Materials Science and Engineering
+          institution: University of Pennsylvania
+          address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
+          ror: 00b30xv10 # https://ror.org/00b30xv10
+      roles: 
+        # https://credit.niso.org/
+        - Conceptualization 
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
         - Project administration
-        - Supervision
-        - Visualization
-        - Writing - original draft
-    - id: garnavides
-      name: Georgios Varnavides
-      email: gvarnavides@berkeley.edu
-      orcid: 0000-0001-8338-3323
-      affiliations:
-        - id: miller
-          department: Miller Institute for Basic Research in Science
-          institution: University of California, Berkeley
-          address: 468 Donner Lab, Berkeley, CA, USA, 94720
-          ror: 01an7q238
-      roles:
-        - Conceptualization
         - Software
         - Validation
         - Visualization
         - Writing - original draft
-  funding:
-    - statement: We thank the Microscopy Society of America for sponsoring this project.
-      recipients:
-        - cophus
-        - garnavides
-    - statement: Work at the Molecular Foundry was supported by the Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.
-      id: DE-AC02-05CH11231
-      sources:
-        - name: Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy
-      recipients:
-        - cophus
+    - id: yifanduan
+      name: 'Yifan Duan #'
+      equal_contributor: true
+      email: ivanduan@berkeley.edu
+      # orcid: 0000-0000-0000-0000
+      affiliations:
+        - id: berkeleymse
+          department: Department of Materials Science and Engineering
+          institution: University of California, Berkeley
+          address: 210 Hearst Memorial Mining Building, Berkeley, California, USA, 94720
+          ror: 01an7q238
+      roles:
+        - Conceptualization
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Software
+        - Validation
+        - Visualization
+        - Writing - original draft
+        - Writing - review & editing
+    - id: zequnhe
+      name: Zequn He
+      email: hezequn@seas.upenn.edu
+      # orcid: 0000-0000-0000-0000
+      affiliations:
+        - id: upennmeam
+          department: A Department of the School of Engineering and Applied Science
+          institution: University of Pennsylvania
+          address: 220 South 33rd Street, Philadelphia, Pennsylvania, USA, 19104
+          ror: 00b30xv10
+      roles:
+        - Conceptualization
+        - Data curation
+        - Writing - review & editing
+    - id: chengyuchen
+      name: Cheng-Yu Chen
+      email: cychen97@seas.upenn.edu
+      # orcid: 0000-0000-0000-0000
+      affiliations:
+        - id: upennmse
+          department: Department of Materials Science and Engineering
+          institution: University of Pennsylvania
+          address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
+          ror: 00b30xv10
+      roles:
+        - Data curation
+        - Writing - review & editing
+    - id: ericastach
+      name: Eric A. Stach
+      corresponding: true
+      email: stach@seas.upenn.edu
+      # orcid: 0000-0000-0000-0000
+      affiliations:
+        - id: upennmse
+          department: Department of Materials Science and Engineering
+          institution: University of Pennsylvania
+          address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
+          ror: 00b30xv10
+      roles:
+        - Conceptualization
+        - Project administration
+        - Resources
+        - Supervision
+        - Writing - review & editing
+  # funding:
+  #   - statement: 
+  #     recipients:
+  #       - 
+  #   - statement: 
+  #     id: 
+  #     sources:
+  #       - name: 
+  #     recipients:
+  #       - 
   abbreviations:
-    4D-STEM: four dimensional scanning transmission electron microscopy
-    FFT: fast Fourier transform
-    HAADF: high angle annular dark field
-    HRTEM: high resolution transmission electron microscopy
-    M&M: Microscopy and Microanalysis
-    STEM: scanning transmission electron microscopy
+    CLIP: Contrastive Language-Image Pre-training
+    CNN: Convolutional Neural Networks
+    CV: computer vision
+    DeAOT: Decoupling Associating Objects with Transformers
+    Dice Coefficient: Dice-Sørensen Coefficient
+    EfficientSAM: Efficient Segment Anything Model
+    FCNN: Fully Convolutional Neural Networks
+    hBN: Hexagonal Boron Nitride
+    IoU: Intersection over Union
+    LISA: Large Language Instructed Segmentation Assistant
+    LLM: Large Language Model
+    LLaMa: Large Language Model Meta AI
+    LSTR: Long Short-term TRansformer
+    MAE: Masked Autoencoder
+    Mask R-CNN: mask regional-based convolutional neural network
+    S4: Structured State Space sequence model
+    SAM: Segment Anything Model
+    SAMI: SAM-leveraged masked image pertraining
+    SSM: State Space Model
+    Swin-UNet: Shifted Windows U-shaped network
+    TEM: Transmission Electron Microscopy
+    U-Net: U-shaped network
+    VMamba: Vision Mamba
+    VRAM: Video Random Access Memory
+    VSS: Visual State Space
+    ViT: Vision Transformer
+    YOLO: You Only Look Once
 site:
   template: book-theme

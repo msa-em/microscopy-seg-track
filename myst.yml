@@ -44,7 +44,7 @@ project:
       name: 'Yifei Duan #'
       equal_contributor: true
       email: yifeid@seas.upenn.edu
-      # orcid: 0000-0000-0000-0000
+      orcid: 0000-0000-0000-0000
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering
@@ -67,7 +67,7 @@ project:
       name: 'Yifan Duan #'
       equal_contributor: true
       email: ivanduan@berkeley.edu
-      # orcid: 0000-0000-0000-0000
+      orcid: 0000-0000-0000-0000
       affiliations:
         - id: berkeleymse
           department: Department of Materials Science and Engineering
@@ -87,7 +87,7 @@ project:
     - id: zequnhe
       name: Zequn He
       email: hezequn@seas.upenn.edu
-      # orcid: 0000-0000-0000-0000
+      orcid: 0000-0000-0000-0000
       affiliations:
         - id: upennmeam
           department: A Department of the School of Engineering and Applied Science
@@ -101,7 +101,7 @@ project:
     - id: chengyuchen
       name: Cheng-Yu Chen
       email: cychen97@seas.upenn.edu
-      # orcid: 0000-0000-0000-0000
+      orcid: 0000-0000-0000-0000
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering
@@ -115,7 +115,7 @@ project:
       name: Eric A. Stach
       corresponding: true
       email: stach@seas.upenn.edu
-      # orcid: 0000-0000-0000-0000
+      orcid: 0000-0000-0000-0000
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering

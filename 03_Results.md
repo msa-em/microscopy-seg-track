@@ -124,7 +124,7 @@ The segmentation results of Swin-UNet show a slight lack of edge detail, with so
 
 ## TEM Video Tracking
 
-```{figure} #app:fig6
+```{figure} #app:fig6-3
 :name: BJo1hhWS1b
 :align: center
 :width: 100%

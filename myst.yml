@@ -3,7 +3,7 @@ version: 1
 project:
   id: msa-em-microscopy-seg-track-1
   title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
-  description: ...
+  description: Comparative analysis of recent CV models in microscopic image segmentation (including EfficientSAM-tiny, YOLOv8n-seg, Swin-UNet, and VMamba). Integration of EfficientSAM-tiny and DeAOT for video tracking in high-temperature sintering processes under a microscope.
   short_title: Microscopy Segment Track
   keywords:
     - Deep learning
@@ -43,14 +43,16 @@ project:
     - id: yifeiduan
       name: 'Yifei Duan #'
       equal_contributor: true
-      email: yifeid@seas.upenn.edu
-      orcid: 0000-0000-0000-0000
+      email: yifeid@alumni.upenn.edu
+      # https://orcid.org/
+      orcid: 0009-0001-4593-921X
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering
           institution: University of Pennsylvania
           address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
-          ror: 00b30xv10 # https://ror.org/00b30xv10
+          # https://ror.org/00b30xv10
+          ror: 00b30xv10
       roles: 
         # https://credit.niso.org/
         - Conceptualization 
@@ -67,7 +69,7 @@ project:
       name: 'Yifan Duan #'
       equal_contributor: true
       email: ivanduan@berkeley.edu
-      orcid: 0000-0000-0000-0000
+      orcid: 0009-0008-2922-3028
       affiliations:
         - id: berkeleymse
           department: Department of Materials Science and Engineering
@@ -87,7 +89,7 @@ project:
     - id: zequnhe
       name: Zequn He
       email: hezequn@seas.upenn.edu
-      orcid: 0000-0000-0000-0000
+      orcid: 0000-0002-8565-0170
       affiliations:
         - id: upennmeam
           department: A Department of the School of Engineering and Applied Science
@@ -101,7 +103,7 @@ project:
     - id: chengyuchen
       name: Cheng-Yu Chen
       email: cychen97@seas.upenn.edu
-      orcid: 0000-0000-0000-0000
+      orcid: 0000-0000-0000-0000 #TODO#######################################
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering
@@ -115,7 +117,7 @@ project:
       name: Eric A. Stach
       corresponding: true
       email: stach@seas.upenn.edu
-      orcid: 0000-0000-0000-0000
+      orcid: 0000-0002-3366-2153
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering
@@ -165,6 +167,6 @@ project:
     VRAM: Video Random Access Memory
     VSS: Visual State Space
     ViT: Vision Transformer
-    YOLO: You Only Look Once
+    YOLO: You Only Look Once (Real-Time Object Detection)
 site:
   template: book-theme

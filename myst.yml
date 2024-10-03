@@ -6,17 +6,17 @@ project:
   description: Comparative analysis of recent CV models in microscopic image segmentation (including EfficientSAM-tiny, YOLOv8n-seg, Swin-UNet, and VMamba). Integration of EfficientSAM-tiny and DeAOT for video tracking in high-temperature sintering processes under a microscope.
   short_title: Microscopy Segment Track
   keywords:
-    - Deep learning
+    - deep learning
     - transmission electron microscopy
     - image segmentation
     - bright field transmission electron microscopy
     - nanoparticles
   github: https://github.com/msa-em/microscopy-seg-track
-  # jupyter: true
-  jupyter:
-    binder:
-      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
-      repo: msa-em/microscopy-seg-track
+  jupyter: true
+  # jupyter:
+  #   binder:
+  #     url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+  #     repo: msa-em/microscopy-seg-track
   # jupyter:
   #   server:
   #     url: 'http://localhost:8888'
@@ -25,10 +25,10 @@ project:
   license: CC-BY-4.0
   banner: banner.png
   thumbnail: thumbnail.webp
-  date: 2024-08-27
+  date: 2024-10-03
   history:
-    submitted: 2023-08-27
-    published: 2024-08-27
+    submitted: 2024-09-19
+    published: 2024-10-03
   requirements:
     - 'environment.yml'
   resources:
@@ -104,12 +104,7 @@ project:
       name: Cheng-Yu Chen
       email: cychen97@seas.upenn.edu
       orcid: 0009-0009-6193-2358
-      affiliations:
-        - id: upennmse
-          department: Department of Materials Science and Engineering
-          institution: University of Pennsylvania
-          address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
-          ror: 00b30xv10
+      affiliations: [upennmse]
       roles:
         - Data curation
         - Writing - review & editing
@@ -118,12 +113,7 @@ project:
       corresponding: true
       email: stach@seas.upenn.edu
       orcid: 0000-0002-3366-2153
-      affiliations:
-        - id: upennmse
-          department: Department of Materials Science and Engineering
-          institution: University of Pennsylvania
-          address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
-          ror: 00b30xv10
+      affiliations: [upennmse]
       roles:
         - Conceptualization
         - Project administration

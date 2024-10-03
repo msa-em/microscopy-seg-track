@@ -13,7 +13,7 @@ This paper reports the application of deep learning techniques in bright-field t
 
 +++{"part":"epigraph"}
 :::{admonition} Co-First Authors
-The authors marked with `#` contributed equally to this work as co-first authors.
+Yifei Duan and Yifan Duan contributed equally to this work as co-first authors.
 :::
 +++
 

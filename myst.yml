@@ -3,7 +3,7 @@ version: 1
 project:
   id: msa-em-microscopy-seg-track-1
   title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
-  description: Comparative analysis of recent CV models in microscopic image segmentation (including EfficientSAM-tiny, YOLOv8n-seg, Swin-UNet, and VMamba). Integration of EfficientSAM-tiny and DeAOT for video tracking in high-temperature sintering processes under a microscope.
+  description: Comparative analysis of recent computer vision models in microscopic image segmentation (including EfficientSAM-tiny, YOLOv8n-seg, Swin-UNet, and VMamba). Integration of EfficientSAM-tiny and DeAOT for video tracking in high-temperature sintering processes under a microscope.
   short_title: Microscopy Segment Track
   keywords:
     - deep learning

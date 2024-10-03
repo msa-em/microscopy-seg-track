@@ -103,7 +103,7 @@ project:
     - id: chengyuchen
       name: Cheng-Yu Chen
       email: cychen97@seas.upenn.edu
-      orcid: 0000-0000-0000-0000 #TODO#######################################
+      orcid: 0009-0009-6193-2358
       affiliations:
         - id: upennmse
           department: Department of Materials Science and Engineering

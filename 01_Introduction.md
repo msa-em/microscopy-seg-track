@@ -1,5 +1,7 @@
 ---
 title: Introduction
+numbering:
+  enumerator: 1.%s 
 ---
 
 In recent years, deep learning techniques have shown great potential in microscopy image analysis, especially in the segmentation of high-resolution transmission electron microscopy (TEM) images. Deep learning methods can automatically extract useful information and effectively reveal the connection between microstructure and material properties {cite:p}`horwathUnderstandingImportantFeatures2020a`. As {cite:t}`geDeepLearningAnalysis2020` point out in their review, deep learning applied to microscopy image analysis establishes a generalized workflow, derived from the development of research in computer vision. Not only for electron microscopy but also for a wider range of analytical and imaging techniques can be applied to the same generalized workflow, such as light microscopy, scanning electron microscopy, atom probe tomography, and scanning probe microscopy.

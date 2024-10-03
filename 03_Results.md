@@ -1,5 +1,7 @@
 ---
 title: Results
+numbering:
+  enumerator: 3.%s 
 ---
 
 ## TEM Image Segmentation

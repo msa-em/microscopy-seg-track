@@ -1,5 +1,7 @@
 ---
 title: Conclusion
+numbering:
+  enumerator: 5.%s 
 ---
 
 This paper demonstrates an approach to microscopy image segmentation and tracking using advanced deep learning models. The superior performance of EfficientSAM-tiny in microscope image segmentation is verified by comparing four advanced deep learning models (Swin-UNet, VMamba, YOLOv8-seg, and EfficientSAM-tiny), which achieve an IoU of 0.99672 and a Dice Coefficient 0.99836.

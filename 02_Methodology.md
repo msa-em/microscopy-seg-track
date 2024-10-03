@@ -1,5 +1,7 @@
 ---
 title: Methodology
+numbering:
+  enumerator: 2.%s 
 ---
 
 
@@ -21,11 +23,10 @@ In this paper, several segmentation models are compared, including YOLOv8n-seg, 
 
 The DeAOT model is a video tracking model, which gives image segmentation (spatial dimension) and ID matching (temporal dimension) to two networks for learning in decoupled networks {cite:p}`yangDecouplingFeaturesHierarchical2022`. The idea of decoupling has been used in several articles {cite:p}`chengSegmentTrackAnything2023; yangDecouplingFeaturesHierarchical2022; yanBridgingGapEndtoend2023; yangTrackAnythingSegment2023; zhangDVISDecoupledVideo2023`. This approach gives better video segmentation results than feeding this information to a single model. The DeAOT model also uses the Long Short-term TRansformer (LSTR) architecture {cite:p}`xuLongShortTermTransformer2021`. The advantages of introducing Long Short-Term Memory into the transformer model include the fact that the problem of vanishing gradients in loops {cite:p}`article` is solved, and historical information (long-term memory) is compressed and preserved {cite:p}`xuLongShortTermTransformer2021`. Meanwhile, for the tracking task, selectively outputting the current state information helps to effectively maintain long-term dependencies, thus achieving better tracking results over time. Since models are trained on segmentation datasets, they generally perform poorly in terms of maintaining temporal continuity of segmentation performance in videos. The use of a segmentation model combined with a tracking framework can enhance performance in video tracking tasks. Using the SAM model to generate the mask of some keyframes as a reference for DeAOT significantly improves the tracking performance of the model {cite:p}`chengSegmentTrackAnything2023`. However, a different approach is used in this paper to combine DeAOT with EfficientSAM. Specifically, the EfficientSAM segmented masks are used as information inputs for the DeAOT model. This approach is to improve the accuracy of model segmentation.
 
-```{figure}
+```{figure} ./figures/Fig1 SegTrack Pipeline.drawio.png
 :name: oxlKu6dMaY
 :align: center
 :width: 100%
-:placeholder: ./figures/Fig1 SegTrack Pipeline.drawio.png
 
 Model pipeline diagram. Each frame is processed by a segmenter to generate a segmentation ID mask, followed by a tracker to update object IDs and produce a tracking ID mask.
 ```

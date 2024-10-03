@@ -1,5 +1,7 @@
 ---
 title: Discussion
+numbering:
+  enumerator: 4.%s 
 ---
 
 # Discussion

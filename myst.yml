@@ -70,6 +70,7 @@ project:
         - Validation
         - Visualization
         - Writing - original draft
+      note: Yifei Duan and Yifan Duan contributed equally to this work as co-first authors.
     - id: yifanduan
       name: Yifan Duan
       equal_contributor: true
@@ -91,6 +92,7 @@ project:
         - Visualization
         - Writing - original draft
         - Writing - review & editing
+      note: Yifei Duan and Yifan Duan contributed equally to this work as co-first authors.
     - id: zequnhe
       name: Zequn He
       email: hezequn@seas.upenn.edu

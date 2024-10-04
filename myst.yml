@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.69761/HDTA8338
   id: msa-em-microscopy-seg-track-1
   title: 'Deep Learning Applications in Microscopy: Segmentation and Tracking'
   description: Comparative analysis of recent computer vision models in microscopic image segmentation (including EfficientSAM-tiny, YOLOv8n-seg, Swin-UNet, and VMamba). Integration of EfficientSAM-tiny and DeAOT for video tracking in high-temperature sintering processes under a microscope.
@@ -29,6 +30,10 @@ project:
   history:
     submitted: 2024-09-19
     published: 2024-10-03
+  venue:
+    title: Elemental Microscopy
+    short_title: EM
+    doi: 10.69761/EM
   requirements:
     - 'environment.yml'
   resources:
@@ -41,7 +46,7 @@ project:
     - README.md
   authors:
     - id: yifeiduan
-      name: 'Yifei Duan #'
+      name: Yifei Duan
       equal_contributor: true
       email: yifeid@alumni.upenn.edu
       # https://orcid.org/
@@ -53,9 +58,9 @@ project:
           address: 3231 Walnut Street, Philadelphia, Pennsylvania, USA, 19104
           # https://ror.org/00b30xv10
           ror: 00b30xv10
-      roles: 
+      roles:
         # https://credit.niso.org/
-        - Conceptualization 
+        - Conceptualization
         - Data curation
         - Formal analysis
         - Investigation
@@ -65,8 +70,9 @@ project:
         - Validation
         - Visualization
         - Writing - original draft
+      note: Yifei Duan and Yifan Duan contributed equally to this work as co-first authors.
     - id: yifanduan
-      name: 'Yifan Duan #'
+      name: Yifan Duan
       equal_contributor: true
       email: ivanduan@berkeley.edu
       orcid: 0009-0008-2922-3028
@@ -86,6 +92,7 @@ project:
         - Visualization
         - Writing - original draft
         - Writing - review & editing
+      note: Yifei Duan and Yifan Duan contributed equally to this work as co-first authors.
     - id: zequnhe
       name: Zequn He
       email: hezequn@seas.upenn.edu
@@ -120,16 +127,24 @@ project:
         - Resources
         - Supervision
         - Writing - review & editing
-  # funding:
-  #   - statement: 
-  #     recipients:
-  #       - 
-  #   - statement: 
-  #     id: 
-  #     sources:
-  #       - name: 
-  #     recipients:
-  #       - 
+  funding:
+    - statement: |
+        This work was carried out in part at the Singh Center for Nanotechnology,
+        which is supported by the NSF National Nanotechnology Coordinated Infrastructure
+        Program under grant NNCI-2025608 and through the use of facilities supported by
+        the University of Pennsylvania Materials Research Science and Engineering
+        Center (MRSEC) DMR-2309043.
+      awards:
+        - id: NNCI-2025608
+          source: NSF National Nanotechnology Coordinated Infrastructure Program
+        - id: DMR-2309043
+          source: University of Pennsylvania Materials Research Science and Engineering Center
+    - statement: |
+        C.-Y. C. and E.A.S. acknowledge additional support through the NSF Division of
+        Materials Research's Metals and Metallic Nanostructures program, DMR-2303084.
+      awards:
+        - id: DMR-2303084
+          source: NSF Division of Materials Research's Metals and Metallic Nanostructures
   abbreviations:
     CLIP: Contrastive Language-Image Pre-training
     CNN: Convolutional Neural Networks
